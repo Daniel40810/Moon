@@ -1,0 +1,37 @@
+FMoon Datenbankaufbau
+=====================================
+Sun Sep 13 06:44:54 CEST 2026
+Java 21.0.11
+
+Verbindung: jdbc:oracle:thin:@//localhost:1521/PDBORCL als DEMO
+Verbindung steht.
+
+--- 00_drop.sql ---
+   5 von 5 Bloecken ausgefuehrt.
+--- 01_tables.sql ---
+   24 von 24 Bloecken ausgefuehrt.
+--- 02_types.sql ---
+   9 von 9 Bloecken ausgefuehrt.
+--- 03_spatial.sql ---
+   5 von 5 Bloecken ausgefuehrt.
+--- 04_stations.sql ---
+   13 von 13 Bloecken ausgefuehrt.
+--- 05_names.sql ---
+   15 von 15 Bloecken ausgefuehrt.
+--- 06_api.sql ---
+   1 von 1 Bloecken ausgefuehrt.
+--- 07_api_body.sql ---
+   1 von 1 Bloecken ausgefuehrt.
+--- 08_views.sql ---
+   9 von 9 Bloecken ausgefuehrt.
+--- 09_scheduler.sql ---
+   5 von 5 Bloecken ausgefuehrt.
+--- 10_import.sql ---
+   6 von 6 Bloecken ausgefuehrt.
+--- 12_coast.sql ---
+   3 von 3 Bloecken ausgefuehrt.
+
+=====================================
+Anweisungen ausgefuehrt: 96
+Fehler: 0
+Der Aufbau ist durchgelaufen.

@@ -1,0 +1,44 @@
+Job FMN_NIGHTLY_JOB ist eingeschaltet (vorher: FALSE).
+Naechster Lauf: 14.09.2026 03:20:00 +02:00
+
+--- ein Lauf sofort von Hand, damit nicht erst morgen frueh
+--- herauskommt, ob er durchlaeuft --
+Lauf von Hand: durchgelaufen.
+
+Job FMN_NIGHTLY_JOB
+eingeschaltet : TRUE
+Zeitplan      : FREQ=DAILY; BYHOUR=3; BYMINUTE=20; BYSECOND=0
+naechster Lauf: 14.09.2026 03:20:00 +02:00
+bisherige Laeufe: 1
+
+--- die letzten fuenf Laeufe -- COLUMN status FORMAT A12
+
+STATUS			       WANN		      DAUER	   FEHLER
+------------------------------ ---------------------- ------------ ------------------------------------------------------------
+SUCCEEDED		       13.09.2026 10:42:57    +000 00:00:0
+						      0
+
+
+--- die letzten fuenf Protokollzeilen der Pflege -- COLUMN detail FORMAT A70
+
+WANN
+----------------------
+DETAIL
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ROWS_DONE
+----------
+13.09.2026 10:42
+Phasen ausserhalb der Toleranz: 0, Hochwasser ausserhalb der Hafenzeit: 0, alte Protokollzeilen entfernt: 0
+	 0
+
+13.09.2026 06:45
+Phasen ausserhalb der Toleranz: 0, Hochwasser ausserhalb der Hafenzeit: 0, alte Protokollzeilen entfernt: 0
+	 0
+
+WANN
+----------------------
+DETAIL
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ ROWS_DONE
+----------
+
